@@ -16888,10 +16888,10 @@
         apiURL;
 
       if (apiKey) {
-        apiURL = 'http://maps.google.com/maps/api/js?key=' + apiKey + '&sensor=false';
+        apiURL = 'https://maps.google.com/maps/api/js?key=' + apiKey + '&sensor=false';
       }
       else {
-        apiURL = 'http://maps.google.com/maps/api/js?sensor=false';
+        apiURL = 'https://maps.google.com/maps/api/js?sensor=false';
       }
 
       $.getScript(apiURL, function (data, textStatus, jqxhr) {
