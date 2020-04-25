@@ -314,6 +314,7 @@ ul {
 }
 .container-fluid {
   width: 100%;
+  padding-top: 15px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
